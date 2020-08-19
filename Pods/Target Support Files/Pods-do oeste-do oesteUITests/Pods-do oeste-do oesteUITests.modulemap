@@ -1,0 +1,6 @@
+framework module Pods_do_oeste_do_oesteUITests {
+  umbrella header "Pods-do oeste-do oesteUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
