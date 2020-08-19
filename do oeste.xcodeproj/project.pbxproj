@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1ED50E8BBDB33A3381D0BF /* Pods_do_oeste_do_oesteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CF10F969E0A8427E586EA0 /* Pods_do_oeste_do_oesteUITests.framework */; };
+		219DD980F007BB95664D2B3E /* Pods_do_oeste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2931A6B825657567BC166914 /* Pods_do_oeste.framework */; };
 		33CAAD5B24EAF69000045741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD5A24EAF69000045741 /* AppDelegate.swift */; };
 		33CAAD5D24EAF69000045741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD5C24EAF69000045741 /* SceneDelegate.swift */; };
-		33CAAD5F24EAF69000045741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD5E24EAF69000045741 /* ViewController.swift */; };
+		33CAAD5F24EAF69000045741 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD5E24EAF69000045741 /* StartViewController.swift */; };
 		33CAAD6224EAF69000045741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CAAD6024EAF69000045741 /* Main.storyboard */; };
 		33CAAD6524EAF69000045741 /* do_oeste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD6324EAF69000045741 /* do_oeste.xcdatamodeld */; };
 		33CAAD6724EAF69100045741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CAAD6624EAF69100045741 /* Assets.xcassets */; };
 		33CAAD6A24EAF69100045741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CAAD6824EAF69100045741 /* LaunchScreen.storyboard */; };
 		33CAAD7524EAF69100045741 /* do_oesteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD7424EAF69100045741 /* do_oesteTests.swift */; };
 		33CAAD8024EAF69100045741 /* do_oesteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD7F24EAF69100045741 /* do_oesteUITests.swift */; };
+		33CAAD8E24EAF6D500045741 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD8D24EAF6D500045741 /* LoginViewController.swift */; };
+		33CAAD9024EAF6F400045741 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD8F24EAF6F400045741 /* SignUpViewController.swift */; };
+		33CAAD9224EAF70600045741 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CAAD9124EAF70600045741 /* HomeViewController.swift */; };
+		33CAAD9424EAFA7800045741 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33CAAD9324EAFA7800045741 /* GoogleService-Info.plist */; };
+		EC63F18933D3EE6FDC617C6C /* Pods_do_oesteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DB83798B5619C3F0CD2AA5 /* Pods_do_oesteTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33CAAD5724EAF69000045741 /* do oeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "do oeste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2931A6B825657567BC166914 /* Pods_do_oeste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_do_oeste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3186156510859DE74742E673 /* Pods-do oesteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do oesteTests.debug.xcconfig"; path = "Target Support Files/Pods-do oesteTests/Pods-do oesteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		336472BE24EB57EF0031FDE3 /* do oeste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "do oeste.entitlements"; sourceTree = "<group>"; };
+		33CAAD5724EAF69000045741 /* Do Oeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do Oeste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CAAD5A24EAF69000045741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CAAD5C24EAF69000045741 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33CAAD5E24EAF69000045741 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33CAAD5E24EAF69000045741 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		33CAAD6124EAF69000045741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33CAAD6424EAF69000045741 /* do_oeste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = do_oeste.xcdatamodel; sourceTree = "<group>"; };
 		33CAAD6624EAF69100045741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,17 @@
 		33CAAD7B24EAF69100045741 /* do oesteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "do oesteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CAAD7F24EAF69100045741 /* do_oesteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = do_oesteUITests.swift; sourceTree = "<group>"; };
 		33CAAD8124EAF69100045741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CAAD8D24EAF6D500045741 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33CAAD8F24EAF6F400045741 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		33CAAD9124EAF70600045741 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		33CAAD9324EAFA7800045741 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A210AB2F0C1EE0EBA330BA8 /* Pods-do oeste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do oeste.debug.xcconfig"; path = "Target Support Files/Pods-do oeste/Pods-do oeste.debug.xcconfig"; sourceTree = "<group>"; };
+		8D7BD28C15B36EAE4E510328 /* Pods-do oeste-do oesteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do oeste-do oesteUITests.release.xcconfig"; path = "Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0DB83798B5619C3F0CD2AA5 /* Pods_do_oesteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_do_oesteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E2FEA1D2D10BFF0AA53A13 /* Pods-do oeste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do oeste.release.xcconfig"; path = "Target Support Files/Pods-do oeste/Pods-do oeste.release.xcconfig"; sourceTree = "<group>"; };
+		F1011895053DD06ED17C855F /* Pods-do oesteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do oesteTests.release.xcconfig"; path = "Target Support Files/Pods-do oesteTests/Pods-do oesteTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1CF10F969E0A8427E586EA0 /* Pods_do_oeste_do_oesteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_do_oeste_do_oesteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F510B3980638F146CD345734 /* Pods-do oeste-do oesteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do oeste-do oesteUITests.debug.xcconfig"; path = "Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219DD980F007BB95664D2B3E /* Pods_do_oeste.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC63F18933D3EE6FDC617C6C /* Pods_do_oesteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1ED50E8BBDB33A3381D0BF /* Pods_do_oeste_do_oesteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +109,15 @@
 				33CAAD7324EAF69100045741 /* do oesteTests */,
 				33CAAD7E24EAF69100045741 /* do oesteUITests */,
 				33CAAD5824EAF69000045741 /* Products */,
+				EAD386420BEEE002A8AA8B09 /* Pods */,
+				7BE8AF134864FEBFE750AE10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		33CAAD5824EAF69000045741 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33CAAD5724EAF69000045741 /* do oeste.app */,
+				33CAAD5724EAF69000045741 /* Do Oeste.app */,
 				33CAAD7024EAF69100045741 /* do oesteTests.xctest */,
 				33CAAD7B24EAF69100045741 /* do oesteUITests.xctest */,
 			);
@@ -101,14 +127,19 @@
 		33CAAD5924EAF69000045741 /* do oeste */ = {
 			isa = PBXGroup;
 			children = (
+				336472BE24EB57EF0031FDE3 /* do oeste.entitlements */,
 				33CAAD5A24EAF69000045741 /* AppDelegate.swift */,
 				33CAAD5C24EAF69000045741 /* SceneDelegate.swift */,
-				33CAAD5E24EAF69000045741 /* ViewController.swift */,
+				33CAAD5E24EAF69000045741 /* StartViewController.swift */,
+				33CAAD8D24EAF6D500045741 /* LoginViewController.swift */,
+				33CAAD8F24EAF6F400045741 /* SignUpViewController.swift */,
+				33CAAD9124EAF70600045741 /* HomeViewController.swift */,
 				33CAAD6024EAF69000045741 /* Main.storyboard */,
 				33CAAD6624EAF69100045741 /* Assets.xcassets */,
 				33CAAD6824EAF69100045741 /* LaunchScreen.storyboard */,
 				33CAAD6B24EAF69100045741 /* Info.plist */,
 				33CAAD6324EAF69000045741 /* do_oeste.xcdatamodeld */,
+				33CAAD9324EAFA7800045741 /* GoogleService-Info.plist */,
 			);
 			path = "do oeste";
 			sourceTree = "<group>";
@@ -131,6 +162,29 @@
 			path = "do oesteUITests";
 			sourceTree = "<group>";
 		};
+		7BE8AF134864FEBFE750AE10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2931A6B825657567BC166914 /* Pods_do_oeste.framework */,
+				F1CF10F969E0A8427E586EA0 /* Pods_do_oeste_do_oesteUITests.framework */,
+				B0DB83798B5619C3F0CD2AA5 /* Pods_do_oesteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD386420BEEE002A8AA8B09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A210AB2F0C1EE0EBA330BA8 /* Pods-do oeste.debug.xcconfig */,
+				E3E2FEA1D2D10BFF0AA53A13 /* Pods-do oeste.release.xcconfig */,
+				F510B3980638F146CD345734 /* Pods-do oeste-do oesteUITests.debug.xcconfig */,
+				8D7BD28C15B36EAE4E510328 /* Pods-do oeste-do oesteUITests.release.xcconfig */,
+				3186156510859DE74742E673 /* Pods-do oesteTests.debug.xcconfig */,
+				F1011895053DD06ED17C855F /* Pods-do oesteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33CAAD8424EAF69100045741 /* Build configuration list for PBXNativeTarget "do oeste" */;
 			buildPhases = (
+				E844463B45911F5209A42B8E /* [CP] Check Pods Manifest.lock */,
 				33CAAD5324EAF69000045741 /* Sources */,
 				33CAAD5424EAF69000045741 /* Frameworks */,
 				33CAAD5524EAF69000045741 /* Resources */,
+				E915105E845322B7E0429300 /* [CP] Embed Pods Frameworks */,
+				01EE71CE5DCD43FCD9137D14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,13 +205,14 @@
 			);
 			name = "do oeste";
 			productName = "do oeste";
-			productReference = 33CAAD5724EAF69000045741 /* do oeste.app */;
+			productReference = 33CAAD5724EAF69000045741 /* Do Oeste.app */;
 			productType = "com.apple.product-type.application";
 		};
 		33CAAD6F24EAF69100045741 /* do oesteTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33CAAD8724EAF69100045741 /* Build configuration list for PBXNativeTarget "do oesteTests" */;
 			buildPhases = (
+				D759B510D5AC751970170CF1 /* [CP] Check Pods Manifest.lock */,
 				33CAAD6C24EAF69100045741 /* Sources */,
 				33CAAD6D24EAF69100045741 /* Frameworks */,
 				33CAAD6E24EAF69100045741 /* Resources */,
@@ -173,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33CAAD8A24EAF69100045741 /* Build configuration list for PBXNativeTarget "do oesteUITests" */;
 			buildPhases = (
+				63EDEFBDF32A19D2D2B31CE1 /* [CP] Check Pods Manifest.lock */,
 				33CAAD7724EAF69100045741 /* Sources */,
 				33CAAD7824EAF69100045741 /* Frameworks */,
 				33CAAD7924EAF69100045741 /* Resources */,
+				5E5B0E42B9F6E1D7CC2ED407 /* [CP] Embed Pods Frameworks */,
+				DB419E3F5C62B40234BD94FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CAAD6A24EAF69100045741 /* LaunchScreen.storyboard in Resources */,
+				33CAAD9424EAFA7800045741 /* GoogleService-Info.plist in Resources */,
 				33CAAD6724EAF69100045741 /* Assets.xcassets in Resources */,
 				33CAAD6224EAF69000045741 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +319,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01EE71CE5DCD43FCD9137D14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste/Pods-do oeste-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste/Pods-do oeste-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-do oeste/Pods-do oeste-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5B0E42B9F6E1D7CC2ED407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63EDEFBDF32A19D2D2B31CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-do oeste-do oesteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D759B510D5AC751970170CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-do oesteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB419E3F5C62B40234BD94FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-do oeste-do oesteUITests/Pods-do oeste-do oesteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E844463B45911F5209A42B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-do oeste-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E915105E845322B7E0429300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste/Pods-do oeste-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-do oeste/Pods-do oeste-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-do oeste/Pods-do oeste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33CAAD5324EAF69000045741 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CAAD5F24EAF69000045741 /* ViewController.swift in Sources */,
+				33CAAD9024EAF6F400045741 /* SignUpViewController.swift in Sources */,
+				33CAAD8E24EAF6D500045741 /* LoginViewController.swift in Sources */,
+				33CAAD5F24EAF69000045741 /* StartViewController.swift in Sources */,
 				33CAAD5B24EAF69000045741 /* AppDelegate.swift in Sources */,
 				33CAAD5D24EAF69000045741 /* SceneDelegate.swift in Sources */,
+				33CAAD9224EAF70600045741 /* HomeViewController.swift in Sources */,
 				33CAAD6524EAF69000045741 /* do_oeste.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,8 +638,10 @@
 		};
 		33CAAD8524EAF69100045741 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A210AB2F0C1EE0EBA330BA8 /* Pods-do oeste.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "do oeste/do oeste.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q78APJ5PNP;
 				INFOPLIST_FILE = "do oeste/Info.plist";
@@ -446,7 +650,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "elc.do-oeste";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Do Oeste";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,8 +658,10 @@
 		};
 		33CAAD8624EAF69100045741 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E2FEA1D2D10BFF0AA53A13 /* Pods-do oeste.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "do oeste/do oeste.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q78APJ5PNP;
 				INFOPLIST_FILE = "do oeste/Info.plist";
@@ -464,7 +670,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "elc.do-oeste";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Do Oeste";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +678,7 @@
 		};
 		33CAAD8824EAF69100045741 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3186156510859DE74742E673 /* Pods-do oesteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +701,7 @@
 		};
 		33CAAD8924EAF69100045741 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1011895053DD06ED17C855F /* Pods-do oesteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +724,7 @@
 		};
 		33CAAD8B24EAF69100045741 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F510B3980638F146CD345734 /* Pods-do oeste-do oesteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +745,7 @@
 		};
 		33CAAD8C24EAF69100045741 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7BD28C15B36EAE4E510328 /* Pods-do oeste-do oesteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
